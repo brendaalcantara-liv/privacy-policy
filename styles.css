@@ -40,12 +40,14 @@ header h1 {
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -0.5px;
+    color: #ffffff;
 }
 
 .last-update {
     font-size: clamp(0.875rem, 2.5vw, 0.95rem);
-    opacity: 0.95;
+    opacity: 1;
     font-weight: 400;
+    color: #ffffff;
 }
 
 main {
@@ -144,6 +146,16 @@ footer p {
     margin: 0;
     font-size: clamp(0.8125rem, 2.5vw, 0.9rem);
     line-height: 1.5;
+    color: #ffffff;
+}
+
+footer code {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
 }
 
 /* Tablets e telas médias */
