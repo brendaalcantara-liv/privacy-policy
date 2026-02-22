@@ -69,6 +69,15 @@ h2 {
     letter-spacing: -0.3px;
 }
 
+h3 {
+    color: #1e56a0;
+    font-size: clamp(1.125rem, 3vw, 1.25rem);
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
 p {
     margin-bottom: 15px;
     text-align: left;
@@ -77,10 +86,14 @@ p {
     color: #2c2c2c;
 }
 
-ul {
+ul, ol {
     margin-left: 20px;
     margin-bottom: 15px;
     padding-left: 10px;
+}
+
+ol {
+    list-style-type: decimal;
 }
 
 li {
@@ -93,6 +106,29 @@ li {
 strong {
     color: #1e56a0;
     font-weight: 600;
+}
+
+a {
+    color: #1e56a0;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #163d71;
+}
+
+a:visited {
+    color: #163d71;
+}
+
+code {
+    background-color: #f0f4f8;
+    color: #163d71;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
 }
 
 footer {
