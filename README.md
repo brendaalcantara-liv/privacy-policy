@@ -1,10 +1,10 @@
-# Privacy Policy
+# Privacy Policy - AntiBet Alerta
 
-This repository contains the Privacy Policy page for the application.
+This repository contains the Privacy Policy page for the AntiBet Alerta application.
 
 ## 🌐 View Online
 
-Access the page at: `https://your-username.github.io/privacy-policy`
+Access the page at: `https://brendaalcantara-liv.github.io/privacy-policy`
 
 ## 📋 How to Use
 
