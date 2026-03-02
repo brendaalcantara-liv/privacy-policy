@@ -19,7 +19,7 @@
     <div class="container">
         <header>
             <h1>Política de Privacidade – AntiBet Alerta</h1>
-            <p class="last-update">Última atualização: fevereiro de 2026 — versão 2.0.0 do aplicativo</p>
+            <p class="last-update">Última atualização: março de 2026 — versão 2.0.0 do aplicativo</p>
         </header>
 
         <main>
@@ -159,6 +159,9 @@
                     <li><strong>Notificações</strong> (Android 13 e superior — <code>POST_NOTIFICATIONS</code>): exibição de notificação persistente enquanto o serviço de monitoramento está ativo e envio de alertas imediatos ao detectar sites de apostas.</li>
                     <li><strong>Serviço em primeiro plano</strong> (<code>FOREGROUND_SERVICE</code> e <code>FOREGROUND_SERVICE_DATA_SYNC</code>): permite que o serviço de monitoramento funcione continuamente em background com notificação permanentemente visível ao usuário, em conformidade com as diretrizes do Android para serviços de longa duração.</li>
                     <li><strong>Inicialização após reboot</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): permite que o app envie uma notificação ao usuário após a reinicialização do dispositivo, lembrando-o de reativar manualmente o monitoramento. O app <strong>não inicia monitoramento automaticamente</strong> após o reboot — a reativação é sempre uma ação voluntária do usuário.</li>
+                    <li><strong>Exibir sobre outros aplicativos</strong> (<code>SYSTEM_ALERT_WINDOW</code>): permite que a tela de intervenção apareça diretamente sobre o navegador no momento em que um site de apostas é detectado, sem que o usuário precise interagir com uma notificação primeiro. O uso desta permissão é restrito exclusivamente à exibição do overlay de intervenção — o app não exibe anúncios, não captura toques em outros aplicativos nem realiza qualquer ação sem conhecimento do usuário.</li>
+                    <li><strong>Intenção de tela cheia</strong> (<code>USE_FULL_SCREEN_INTENT</code>): usada como alternativa ao overlay quando a permissão acima não foi concedida. Nesse caso, ao detectar um site de apostas, o app abre a tela de intervenção em modo de tela cheia por meio de uma notificação de alta prioridade.</li>
+                    <li><strong>Administrador do dispositivo</strong> (opcional — <code>DeviceAdminReceiver</code>): se você ativar voluntariamente a proteção contra desinstalação impulsiva em <strong>Configurações → Proteção contra recaída</strong>, o app solicita o privilégio de Administrador do dispositivo. Esse privilégio é utilizado <strong>exclusivamente</strong> para dificultar a remoção impulsiva do app nos momentos de maior tentação. Nenhuma política de gestão remota, bloqueio de tela, limpeza de dados ou restrição de funcionalidades do dispositivo é implementada. Você pode revogar esse privilégio a qualquer momento em <strong>Configurações do Android → Segurança → Administradores do dispositivo</strong>.</li>
                 </ul>
             </section>
 
