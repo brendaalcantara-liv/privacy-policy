@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <meta name="description" content="Política de Privacidade do AntiBet Alerta - Aplicativo Android">
     <meta name="theme-color" content="#1e56a0">
+    <link rel="canonical" href="https://brendaalcantara-liv.github.io/privacy-policy/">
+    <link rel="alternate" hreflang="pt-BR" href="https://brendaalcantara-liv.github.io/privacy-policy/">
+    <link rel="alternate" hreflang="en" href="https://brendaalcantara-liv.github.io/privacy-policy/en/">
+    <link rel="alternate" hreflang="es" href="https://brendaalcantara-liv.github.io/privacy-policy/es/">
     <meta name="mobile-web-app-capable" content="yes">
     <title>Política de Privacidade - AntiBet Alerta</title>
     
@@ -18,8 +22,13 @@
 <body>
     <div class="container">
         <header>
+            <nav class="language-nav" aria-label="Idiomas">
+                <a href="./" lang="pt-BR" aria-current="page">Português</a>
+                <a href="./en/" lang="en">English</a>
+                <a href="./es/" lang="es">Español</a>
+            </nav>
             <h1>Política de Privacidade – AntiBet Alerta</h1>
-            <p class="last-update">Última atualização: março de 2026 — versão 2.2.1 do aplicativo (atualização: período de reflexão de 1 hora para revogação do consentimento de intervenção).</p>
+            <p class="last-update">Última atualização: 12 de agosto de 2026</p>
         </header>
 
         <main>
@@ -36,6 +45,7 @@
                     <li><strong>Domínio</strong> dos sites que você visita em navegadores suportados (Chrome, Samsung Internet, Firefox, Edge e outros), por exemplo <code>sitedeapostaexemplo.com</code>. Apenas o endereço do site é registrado — caminhos de página, parâmetros e demais partes da URL não são coletados.</li>
                     <li><strong>Data e hora</strong> de cada acesso.</li>
                     <li><strong>Título</strong> da página (quando disponível na barra de endereço do navegador).</li>
+                    <li><strong>Nome do aplicativo aberto</strong>, exclusivamente para identificar apps de apostas compatíveis. O conteúdo do aplicativo não é lido.</li>
                     <li><strong>Registro de intervenções</strong>: quando uma tela de pausa é exibida, registramos o domínio, o horário e o desfecho (fechou o site, continuou, se auto-bloqueou etc.).</li>
                 </ul>
 
@@ -52,7 +62,7 @@
                 <ul>
                     <li>Conteúdo das páginas (textos, imagens, vídeos).</li>
                     <li>Senhas, dados de formulários ou campos de texto de qualquer site.</li>
-                    <li>Histórico de outros aplicativos que não sejam navegadores de internet.</li>
+                    <li>Conteúdo, mensagens, feeds, posts, senhas, campos de formulário ou atividades dentro de outros aplicativos.</li>
                     <li>Dados de localização GPS, câmera, microfone ou contatos.</li>
                     <li>Dados biométricos, IMEI, número de telefone ou identificadores de hardware.</li>
                 </ul>
@@ -155,7 +165,7 @@
                 <ul>
                     <li><strong>Internet</strong>: envio de relatórios e alertas por e-mail; verificação Safe Browsing (quando ativada); análise técnica de SSL e redirecionamentos de sites suspeitos.</li>
                     <li><strong>Estado da rede</strong>: verificar conectividade antes de tentar envio de e-mails e análises online.</li>
-                    <li><strong>Acessibilidade</strong>: leitura da URL exibida na barra de endereço dos navegadores; usada exclusivamente para detectar domínios de apostas. O serviço <strong>não lê</strong> senhas, conteúdo de páginas, campos de formulário, digitação ou dados de aplicativos que não sejam navegadores.</li>
+                    <li><strong>Acessibilidade</strong>: leitura da URL exibida na barra de endereço dos navegadores e do nome do aplicativo aberto, usada exclusivamente para detectar domínios e apps de apostas compatíveis. O serviço <strong>não lê</strong> senhas, conteúdo de páginas ou aplicativos, mensagens, feeds, campos de formulário ou digitação.</li>
                     <li><strong>Notificações</strong> (Android 13 e superior — <code>POST_NOTIFICATIONS</code>): exibição de notificação persistente enquanto o serviço de monitoramento está ativo e envio de alertas imediatos ao detectar sites de apostas.</li>
                     <li><strong>Serviço em primeiro plano</strong> (<code>FOREGROUND_SERVICE</code> e <code>FOREGROUND_SERVICE_DATA_SYNC</code>): permite que o serviço de monitoramento funcione continuamente em background com notificação permanentemente visível ao usuário, em conformidade com as diretrizes do Android para serviços de longa duração.</li>
                     <li><strong>Inicialização após reboot</strong> (<code>RECEIVE_BOOT_COMPLETED</code>): permite que o app envie uma notificação ao usuário após a reinicialização do dispositivo, lembrando-o de reativar manualmente o monitoramento. O app <strong>não inicia monitoramento automaticamente</strong> após o reboot — a reativação é sempre uma ação voluntária do usuário.</li>
